@@ -1,9 +1,12 @@
-import './App.css';
+import LessText from "./components/LessText";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-        More-Less
+    <div>
+      <h1 className="App"> TraVel </h1>
+      <LessText />
     </div>
   );
 }
